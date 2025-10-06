@@ -10,6 +10,7 @@ Feature: Homepage
     When The page is fully loaded
     Then Verify the "home" page title
 
+  @smoke
   Scenario: Validate the Login button
     Verify visibility and clickability of the Login button
     Given The user opens the GUVI homepage

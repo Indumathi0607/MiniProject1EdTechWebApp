@@ -6,8 +6,8 @@ from pytest_bdd import scenarios, when, then, parsers
 from pages.homepage import HomePage
 from pages.loginpage import LoginPage
 from pages.mycoursespage import MyCoursesPage
-from utility.capture_screenshot import CaptureScreenshot
-from utility.logger import get_logger
+from utilities.capture_screenshot import CaptureScreenshot
+from utilities.logger import get_logger
 
 # Get the path to the feature file
 scenarios('../features/login.feature')

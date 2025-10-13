@@ -2,7 +2,7 @@ import logging
 import os
 from logging.handlers import RotatingFileHandler
 
-from utility.constants import APP_NAME
+from utilities.constants import APP_NAME
 
 
 def get_logger(name):

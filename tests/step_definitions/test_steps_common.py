@@ -1,5 +1,5 @@
 from pytest_bdd import given
-from utility.logger import get_logger
+from utilities.logger import get_logger
 
 logger = get_logger(__name__)
 

@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.edge.service import Service as EdgeService
 
-from utility.capture_screenshot import CaptureScreenshot
+from utilities.capture_screenshot import CaptureScreenshot
 
 
 # Using pytest_add option hook method allow browser selection via command line

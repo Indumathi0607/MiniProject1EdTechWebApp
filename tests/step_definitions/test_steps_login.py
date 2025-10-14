@@ -87,6 +87,7 @@ def validate_login_is_success(my_courses_page, take_screenshot):
     assert my_courses_page.is_my_courses_menu_visible, "My courses menu is not visible"
     take_screenshot.capture_screenshot('Login_success')
 
+
 @then('The user should be able to logout successfully')
 def verify_logout_is_success(home_page, my_courses_page, take_screenshot):
     logger.info('Validating navigation back to home page after sign out')

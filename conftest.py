@@ -58,7 +58,7 @@ def pytest_runtest_makereport(item):
     if rep.when == 'call' and rep.failed:
         driver = item.funcargs.get('driver', None)
 
-    # Since the step def are not directly involving the driver fixture, steps to find driver indirectly
+        # Since the step def are not directly involving the driver fixture, steps to find driver indirectly
         if not driver:
             for fixture_value in item.funcargs.values():
                 if hasattr(fixture_value, 'driver'):

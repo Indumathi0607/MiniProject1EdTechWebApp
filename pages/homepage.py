@@ -74,4 +74,3 @@ class HomePage(BasePage):
 
     def switch_to_dobby_iframe(self):
         self.switch_to_iframe(Locators.dobby_iframe)
-

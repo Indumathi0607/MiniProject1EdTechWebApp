@@ -25,6 +25,7 @@ Feature: Login
       | indulax.88@gmail.com | EMPTY    | Hey, Did you forgot your password? Try again. |
       | indulax.88@gmail.com | qwerty   | Incorrect Email or Password                   |
 
+  @smoke
   Scenario: Verify login functionality with valid credentials
   Validating login success for valid credentials
     Given The user opens the GUVI homepage

@@ -12,15 +12,15 @@ class Locators:
     products_menu = (By.XPATH, "//div[@id='solutions']")  # XPATH
     homepage_login_button = (By.XPATH, "//a[@id= 'login-btn']")  # XPATH
     homepage_signup_button = (By.XPATH, "//a[text() = 'Sign up']")  # XPATH
-    dobby_iframe = (By.XPATH, "//iframe[@title= 'chat window']") #XPATH
-    dobby_image = (By.XPATH, "//img[@id = 'chateleon-container-gif-0']") #XPATH
+    dobby_iframe = (By.XPATH, "//iframe[@title= 'chat window']")  # XPATH
+    dobby_image = (By.XPATH, "//img[@id = 'chateleon-container-gif-0']")  # XPATH
     chat_input = (By.XPATH, "//div[@class= 'chat-form']")  # XPATH
     paid_courses_menu = (By.XPATH, "//div[text() = 'Paid Courses']")  # XPATH
-    live_online_class_submenu = (By.XPATH, "(//p[text()= 'LIVE Online Intensive Program + Placement Guidance'])[2]")  # XPATH
-    codekata_submenu = (By.XPATH, "(//p[text() = 'CodeKata'])[2]") #XPATH
-    success_story_submenu = (By.XPATH, "(//a[text()='Success Stories'])[2]") #XPATH
-    hackerkid_submenu = (By.XPATH, "(//p[text() = 'HackerKID'])[2]") #XPATH
-
+    live_online_class_submenu = (
+    By.XPATH, "(//p[text()= 'LIVE Online Intensive Program + Placement Guidance'])[2]")  # XPATH
+    codekata_submenu = (By.XPATH, "(//p[text() = 'CodeKata'])[2]")  # XPATH
+    success_story_submenu = (By.XPATH, "(//a[text()='Success Stories'])[2]")  # XPATH
+    hackerkid_submenu = (By.XPATH, "(//p[text() = 'HackerKID'])[2]")  # XPATH
 
     # Locators of Login page
     login_header = (By.XPATH, "//div[@class = 'login-heading']")  # XPATH
@@ -28,7 +28,7 @@ class Locators:
     password_textbox = (By.XPATH, "//input[@id = 'password']")  # XPATH
     login_page_login_button = (By.XPATH, "//a[@id = 'login-btn']")  # XPATH
     invalid_login_error = (
-    By.XPATH, "//input[@type = 'password']/following-sibling::div[contains(@class, 'invalid-feedback')]")  # XPATH
+        By.XPATH, "//input[@type = 'password']/following-sibling::div[contains(@class, 'invalid-feedback')]")  # XPATH
     invalid_email_error = (By.XPATH, "//div[@class = 'invalid-feedback is-invalid']")  # XPATH
 
     # Locators of Sign up page

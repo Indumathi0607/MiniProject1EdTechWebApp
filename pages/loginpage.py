@@ -1,6 +1,7 @@
 from pages.basepage import BasePage
 from pages.locators import Locators
 
+
 class LoginPage(BasePage):
     def validate_login_page_title(self, expected_title):
         self.validate_webpage_title(expected_title)
@@ -27,4 +28,3 @@ class LoginPage(BasePage):
     def get_invalid_login_error(self):
         error_text = self.get_element_text(Locators.invalid_login_error)
         return error_text
-

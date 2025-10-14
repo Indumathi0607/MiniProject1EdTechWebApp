@@ -1,5 +1,3 @@
-from selenium.webdriver.support.wait import WebDriverWait
-
 from pages.basepage import BasePage
 from pages.locators import Locators
 

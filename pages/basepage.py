@@ -27,7 +27,6 @@ class BasePage:
         except (TimeoutException, NoSuchElementException, ElementNotInteractableException) as error:
             assert False, f"Error: {error}"
 
-
     # Method to verify the element is visible and return True or False
     def is_element_visible(self, locator):
         try:
@@ -71,7 +70,7 @@ class BasePage:
         webpage_url = self.driver.current_url
         assert webpage_url == expected_url, f'URL mismatch. Expected {expected_url} and Actual {webpage_url}'
 
-    #Method to switch to iFrame
+    # Method to switch to iFrame
     def switch_to_iframe(self, frame_id):
         iframe_element = self.find_element(frame_id)
         self.driver.switch_to.frame(iframe_element)

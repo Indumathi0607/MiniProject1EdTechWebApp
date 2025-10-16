@@ -30,12 +30,12 @@ Feature: Login
   Validating login success for valid credentials
     Given The user opens the GUVI homepage
     When Clicking on Login button
-    Then Enter "indulax.88@gmail.com" and "Kiss@2567"
+    Then Enter "indulax.88@gmail.com" and "password"
     And Login should be successful
 
   Scenario: Verify sign out is success
     Given The user opens the GUVI homepage
     When Clicking on Login button
-    Then Enter "indulax.88@gmail.com" and "Kiss@2567"
+    Then Enter "indulax.88@gmail.com" and "password"
     And Login should be successful
     And The user should be able to logout successfully

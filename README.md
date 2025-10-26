@@ -9,7 +9,8 @@ This web automation framework involves
 - ✅ Page Object Model (POM) design
 - ✅ Cross-browser support (Chrome, Firefox, Edge)
 - ✅ Automatic screenshots on failure
-- ✅ Allure reporting with clean results
+- ✅ Reporting: Allure reporting with clean results
+- ✅ Logs are captured
 
 Usage of this framework:
 ---------
@@ -53,7 +54,6 @@ Project1EdTechWebApp/utility/
 - logger.py: Prints logs during test execution
 
 Project1EdTechWebApp/conftest.py: Browser setup (Chrome, Firefox, Edge, etc.)
-Project1EdTechWebApp/pytest.ini: Pytest configuration file
 Project1EdTechWebApp/requirements.txt: List of required Python libraries
 Project1EdTechWebApp/pytest.ini: Define markers to execute selected testcases. The markers are used in .feature file
 Project1EdTechWebApp/README.md: You’re reading this file 😊
@@ -127,7 +127,7 @@ Example combined run commands:
 3. Run everything wth Allure
    pytest tests/features/ --alluredir=reports/allure-results -v
    then run: allure serve reports/allure-results
-   Author
+   
 
 
 To open the Allure report copied to different location/Google drive:
@@ -136,6 +136,7 @@ To open the Allure report copied to different location/Google drive:
 2. Run command: python -m http.server 8000
 3. Then open the following link in the browser: http://localhost:8000/allure-report
 
+Author
 -------
 Indumathi
 
